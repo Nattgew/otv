@@ -4,7 +4,7 @@ import colorama as color
 
 
 class Tile:
-    DIRECTORIES = ["earth nav data", "terrain", "textures"]
+    DIRECTORIES = ["Earth nav data", "terrain", "textures"]
 
     lat = None
     long = None
@@ -48,8 +48,8 @@ class Tile:
 
         return True
 
-    def validate_earth_nav_data(self):
-        if not self.validate_dir("earth nav data"):
+    def validate_Earth_nav_data(self):
+        if not self.validate_dir("Earth nav data"):
             return False
 
         return True
